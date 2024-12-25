@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04  # Explicitly set Ubuntu version
+    runs-on: macos-latest  # Explicitly set Ubuntu version
 
     steps:
       # Step 1: Checkout the code
